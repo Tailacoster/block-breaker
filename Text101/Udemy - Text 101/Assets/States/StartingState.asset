@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3dc58ef48c8b24abb3a9c0c3253a09, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: 'A loud screeching alarm sounds throughout the dimly lit room. You''re
+    cold, and what little you can see is lit up by red flashing lights. You step
+    out of what looks like a human-sized pod that is radiating off vapor like dry
+    ice. You gather your thoughts and conclude that you have no idea where you are.
+
+
+    What
+    should I do?
+
+    1. Search the dimly lit room
+
+    2. Go for an exit'
+  nextStates:
+  - {fileID: 11400000, guid: 7d4d1d30a38a7ea40844d1dc280808f0, type: 2}
+  - {fileID: 11400000, guid: 63f38727ea467f245a9d4951554f66ea, type: 2}
